@@ -7,6 +7,7 @@ app.get('/tintuc', (req, res) => {
   var b=2;
 
   var c=a+b;
+  d=c+a+b;
   return res.send('Hello World!')})
 
 app.listen(port, () => {
